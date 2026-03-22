@@ -1,5 +1,5 @@
 <Solution>
-  <Project Path="CustomePreValidationPlugin/CustomPlugin.csproj" Id="adcacbf7-ffb1-4b6e-8ca0-b4d4e258d06c" />
+  <Project Path="CustomPlugin/CustomPlugin.csproj" />
   <Project Path="TradePlugin.Abstractions/TradingPlugin.Abstractions.csproj" Id="01e9d3cb-ac21-4f31-8238-27f19734a9cf" />
   <Project Path="Trading.BaseModels/Trading.BaseModels.csproj" Id="de523245-1cde-493a-b98a-97f062988d64" />
   <Project Path="Trading.BusinessModels/Trading.BusinessModels.csproj" Id="8c397da1-51f6-4a81-b50a-8acae1a87a4f" />
