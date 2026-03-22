@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.5" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="10.1.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TradePlugin.Abstractions\TradingPlugin.Abstractions.csproj" />
+    <ProjectReference Include="..\Trading.BusinessModels\Trading.BusinessModels.csproj" />
+    <ProjectReference Include="..\Trading.Configurations\Trading.Configurations.csproj" />
+    <ProjectReference Include="..\TradingPlugin.Framework\TradingPlugin.Framework.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="CoreSave\" />
+  </ItemGroup>
+
+</Project>
